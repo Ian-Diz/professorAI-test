@@ -44,9 +44,6 @@ const Article = ({ params }: ArticleProps) => {
       {articleData.link === "introducing-new-analytics" ? (
         <IntroducingNewAnalytics image={articleData.image} />
       ) : null}
-      {articleData.link === "new-pricing" ? (
-        <PricingUpdates image={articleData.image} />
-      ) : null}
     </div>
   );
 };
